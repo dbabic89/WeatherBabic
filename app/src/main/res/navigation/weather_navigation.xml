@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weather_navigation"
+    app:startDestination="@id/weatherDetailFragment">
+
+    <fragment
+        android:id="@+id/weatherDetailFragment"
+        android:name="com.example.weatherbabic.ui.weather.WeatherDetailFragment"
+        android:label="weather_detail_fragment"
+        tools:layout="@layout/fragment_weather_detail"/>
+</navigation>

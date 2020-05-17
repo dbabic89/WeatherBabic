@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="check_video">Check Video</string>
+    <string name="feels_like">Feels Like %s</string>
+    <string name="sunrise">Sunrise %s</string>
+    <string name="sunset">Sunset %s</string>
+    <string name="need_access_for_location">WeatherApp needs access to your location</string>
+    <string name="gps_disabled">GPS is disabled</string>
+    <string name="need_gps">To use WeatherApp you need to enable GPS in Settings</string>
+    <string name="open_settings">Open settings</string>
+    <string name="dismiss">Dismiss</string>
+
+    <string name="concat_two_strings_slash">%1$s / %2$s</string>
+
+    <string name="search_for_location">Search for location</string>
+    <string name="enter_location">Enter location</string>
+    <string name="or">or</string>
+    <string name="favorite_locations">Favorite Locations</string>
+    <string name="something_went_wrong">Something went wrong \nTry later again!</string>
+</resources>
