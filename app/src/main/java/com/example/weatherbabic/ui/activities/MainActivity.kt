@@ -1,9 +1,10 @@
-package com.example.weatherbabic
+package com.example.weatherbabic.ui.activities
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.weatherbabic.R
 import com.example.weatherbabic.utils.hasInternetConnection
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.HasSupportFragmentInjector

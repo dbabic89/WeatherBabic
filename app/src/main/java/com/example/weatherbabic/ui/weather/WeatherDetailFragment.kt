@@ -18,9 +18,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.weatherbabic.MainActivity
+import com.example.weatherbabic.ui.activities.MainActivity
 import com.example.weatherbabic.R
-import com.example.weatherbabic.VideoPlayerActivity
+import com.example.weatherbabic.ui.activities.VideoPlayerActivity
 import com.example.weatherbabic.data.database.entities.Forecast
 import com.example.weatherbabic.data.database.entities.Weather
 import com.example.weatherbabic.data.database.entities.YoutubeVideo

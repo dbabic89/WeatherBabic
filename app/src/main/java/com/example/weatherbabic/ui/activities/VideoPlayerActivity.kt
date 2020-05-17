@@ -1,6 +1,7 @@
-package com.example.weatherbabic
+package com.example.weatherbabic.ui.activities
 
 import android.os.Bundle
+import com.example.weatherbabic.R
 import com.example.weatherbabic.data.database.entities.YoutubeVideo
 import com.example.weatherbabic.data.remote.YoutubeService
 import com.example.weatherbabic.utils.ARGUMENT_YOUTUBE_VIDEO
