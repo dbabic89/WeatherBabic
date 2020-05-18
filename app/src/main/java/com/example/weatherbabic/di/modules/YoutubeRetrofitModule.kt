@@ -1,6 +1,6 @@
-package com.example.weatherbabic.di
+package com.example.weatherbabic.di.modules
 
-import com.example.weatherbabic.data.remote.OpenWeatherService
+import com.example.weatherbabic.data.remote.YoutubeService
 import com.google.gson.Gson
 import dagger.Module
 import dagger.Provides
@@ -13,17 +13,17 @@ import javax.inject.Named
 
 @Suppress("unused")
 @Module
-object OpenWeatherRetrofitModule {
+object YoutubeRetrofitModule {
 
-    private const val OPEN_WEATHER_BASE_URL = "https://api.openweathermap.org/"
+    private const val YOUTUBE_BASE_URL = "https://www.googleapis.com/youtube/v3/"
 
     @Provides
     @Reusable
     @JvmStatic
-    @Named("openWeather")
-    internal fun openWeatherRetrofit(okHttpClient: OkHttpClient, gson: Gson) =
+    @Named("youtube")
+    internal fun youtubeRetrofit(okHttpClient: OkHttpClient, gson: Gson) =
         Retrofit.Builder()
-            .baseUrl(OPEN_WEATHER_BASE_URL)
+            .baseUrl(YOUTUBE_BASE_URL)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .client(okHttpClient).build()
@@ -31,6 +31,6 @@ object OpenWeatherRetrofitModule {
     @Provides
     @Reusable
     @JvmStatic
-    internal fun openWeatherService(@Named("openWeather") retrofit: Retrofit) =
-        retrofit.create(OpenWeatherService::class.java)
+    internal fun youtubeService(@Named("youtube") retrofit: Retrofit) =
+        retrofit.create(YoutubeService::class.java)
 }

@@ -1,4 +1,4 @@
-package com.example.weatherbabic.di
+package com.example.weatherbabic.di.modules
 
 import com.example.weatherbabic.ui.weather.WeatherDetailFragment
 import dagger.Module

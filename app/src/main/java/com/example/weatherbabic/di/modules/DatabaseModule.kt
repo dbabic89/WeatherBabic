@@ -1,4 +1,4 @@
-package com.example.weatherbabic.di
+package com.example.weatherbabic.di.modules
 
 import android.app.Application
 import androidx.room.Room

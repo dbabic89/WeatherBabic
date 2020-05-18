@@ -1,4 +1,4 @@
-package com.example.weatherbabic.di
+package com.example.weatherbabic.di.modules
 
 import android.util.Log
 import com.example.weatherbabic.utils.WEATHER_APP

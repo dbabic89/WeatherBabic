@@ -1,7 +1,8 @@
-package com.example.weatherbabic.di
+package com.example.weatherbabic.di.components
 
 import android.app.Application
 import com.example.weatherbabic.WeatherBabicApplication
+import com.example.weatherbabic.di.modules.*
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
